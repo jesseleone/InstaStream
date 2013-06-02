@@ -1,0 +1,6 @@
+extends layout
+
+block content
+	h1 #{title}
+	each follower in followers
+		img(src-'#follower.profile_picture')
